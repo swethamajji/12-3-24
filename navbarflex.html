@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <style>
+        #parent{
+            display: inline-block;
+            background-color: red;
+            }
+#parent nav{
+    display:inline-block;
+    margin:8px;
+
+}
+body{
+    background-color:pink;
+}
+ @media only screen and (max-width:500px){
+    #parent nav{
+        display:flex;
+       
+    }
+    #parent{
+        background-color: cadetblue;
+        float: right;
+    }
+   
+} 
+ 
+        </style>
+    </head>
+    <body>
+        <nav id="parent">
+       <nav><button>Home</button></nav>
+       <nav><button>contact</button></nav>
+       <nav><button>photos</button></nav>
+        <nav><button>map</button></nav>
+        <nav><button>Help</button></nav>
+    </nav>
+    </body>
+</html>

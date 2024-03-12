@@ -1,0 +1,47 @@
+<html>
+<head>
+    <style>
+        #parent {
+background-color: rgb(135, 135, 159);
+display: grid;
+width:600px;
+grid-template-columns:145px 145px 290px;
+grid-template-rows: 145px 250px 250px;
+row-gap: 10px;
+column-gap: 10px;
+        }
+        #parent div {
+            background-color: aquamarine;
+        }
+
+        #c {
+            grid-row: 1/3;
+            grid-column: 3/4;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="a">
+            <img src="https://sommailier.com/wp-content/uploads/2019/06/Man-Holding-Grapes-in-His-Hands.jpg"alt="" width="145px" height="145px">
+        </div>
+        <div id="b">
+            <img src="https://th.bing.com/th/id/OIP.5JLAJZeXyVb5hgErUk9r5gHaE5?rs=1&pid=ImgDetMain"alt="" width="145px" height="145px">
+        </div>
+        <div id="c" >
+            <img src="https://th.bing.com/th/id/OIP.P3gbB6RMFlYutQJWMWY4LgAAAA?rs=1&pid=ImgDetMain"alt="" width="290px" height="405px">
+        </div>
+        <div id="d" style="grid-column: 1/3;">
+            <img src="https://thumbs.dreamstime.com/b/glass-orange-juice-freshly-squeezed-background-116094589.jpg"alt="" width="300px" height="250px">
+        </div>
+        <div id="e" style="grid-column: 1/3;">
+            <img src="https://th.bing.com/th/id/OIP.vs2cQSOY-cjzkxSOe41fUAHaDg?rs=1&pid=ImgDetMain"alt="" width="300px" height="250px">
+        </div>
+        <div id="f">
+            <img src="https://media.istockphoto.com/photos/pineapple-tropical-fruit-chopped-in-cubes-for-fresh-food-preparation-picture-id172804869?k=6&m=172804869&s=170667a&w=0&h=dL8-W8kUrEPIu9aYsFoqAALoxSZdso_qLAvocfLRK-E="alt="" width="290px" height="250px">
+
+        </div>
+    </div>
+</body>
+</html

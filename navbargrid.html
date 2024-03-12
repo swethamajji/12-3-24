@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <style>
+#parent{
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-around;
+}
+#parent nav{
+background-color: grey;
+}
+body{
+    background-color:aquamarine;
+}
+@media only screen and (min-width:500px){
+body{
+    background-color:lightsalmon;
+
+}
+@media only screen and (max-width:700px){
+body{
+    background-color:blue;
+
+}
+}
+}
+        </style>
+    </head>
+    <body>
+        <nav id="parent">
+       <nav><button>Home</button></nav>
+       <nav><button>contact</button></nav>
+       <nav><button>photos</button></nav>
+        <nav><button>map</button></nav>
+        <nav><button>Help</button></nav>
+    </nav>
+    </body>
+</html>
